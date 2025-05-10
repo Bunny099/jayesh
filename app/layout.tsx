@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jayesh",
     description:
-      "Explore my portfolio showcasing projects built with Next.js, Prisma, and PostgreSQL.",
+      "Explore my portfolio website.",
     url: "https://jayesh-five.vercel.app",
     siteName: "Jayesh",
     images: [
