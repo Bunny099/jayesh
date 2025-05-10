@@ -24,7 +24,7 @@ Welcome to my personal portfolio website, built to showcase my skills, projects,
 
 ## 📫 Contact
 
-Feel free to reach out via [LinkedIn](https://linkedin.com/in/your-profile) or [Email](mailto:your-email@example.com)
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jayesh-khuman-8476bb1a9/) or [Email](mailto:jayeshkhuman121@gmail.com)
 
 ---
 
