@@ -15,8 +15,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "jayesh",
-  description: "jayesh porfolio site!",
+  title: "Jayesh",
+  description:
+    "Crafting fast, scalable, and beautifully designed web applications with a focus on seamless user experiences.",
+  metadataBase: new URL("https://jayesh-five.vercel.app"),
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Jayesh",
+    description:
+      "Explore my portfolio showcasing projects built with Next.js, Prisma, and PostgreSQL.",
+    url: "https://jayesh-five.vercel.app",
+    siteName: "Jayesh",
+    images: [
+      {
+        url: "https://jayesh-five.vercel.app/portfolio.png",
+        width: 1200,
+        height: 630,
+        alt: "Jayesh Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -35,6 +35,8 @@ export default function ProjectCard({
         <Link
           href={btnLink}
           className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white font-medium px-10 py-2 rounded-full shadow hover:from-pink-500 hover:to-yellow-400 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {btnText}
         </Link>

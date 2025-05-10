@@ -27,9 +27,9 @@ export default function Projects() {
 
           <ProjectCard
             title="Jayesh-Portfolio site"
-            description="An Arabic online learning platform that offers courses in different programing languages."
-            image="timewise.png"
-            btnLink="https://timewise-beta.vercel.app"
+            description="Personal portfolio website built with modern web tech to highlight my work, experience, and development journey"
+            image="portfolio.png"
+            btnLink="https://jayesh-five.vercel.app/"
             btnText="Visit"
           />
         </div>
