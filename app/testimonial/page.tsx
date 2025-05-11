@@ -13,7 +13,7 @@ export default function Testimonial() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <TestimonialCard
             image="testimonial2.jpg"
-            name="Ghanshyan Patel"
+            name="Ghanshyam Patel"
             position="Founder @Keshav Digital"
             feedback="Working with Jayesh was a truly impressive experience. He developed a clean, modern website for our textile company that reflects our brand perfectly. From the design to the backend functionality, everything was tailored exactly to our needs. His dedication, technical skill, and attention to detail were evident at every step. The admin panel he built makes it incredibly easy for us to manage inquiries and products without any technical hassle. I highly recommend him to anyone looking for a reliable full-stack developer. Wishing him continued success in his career!"
           />
