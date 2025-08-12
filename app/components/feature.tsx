@@ -9,6 +9,13 @@ export default function Feature() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <ProjectCard
+                    title="Officers"
+                    description="Built Officers, a Next.js-based platform for a student-alumni trust with public resources and a secure admin panel, powered by NextAuth, Prisma, PostgreSQL, Tailwind, and Framer Motion."
+                    image="officers.png"
+                    btnLink="https://officers-three.vercel.app"
+                    btnText="Visit"
+                  />
+        <ProjectCard
           title="TimeWise"
           description="Track project work hours with start/end times, manage entries, and generate reports. Built with Next.js, Prisma, and PostgreSQL."
           image="timewise.png"
@@ -16,13 +23,7 @@ export default function Feature() {
           btnText="Visit"
         />
 
-        <ProjectCard
-          title="Keshav-Digital"
-          description="Business site with product showcase, inquiry form, and admin panel to manage products and export inquiries. Built with Next.js and PostgreSQL."
-          image="keshav.png"
-          btnLink="https://keshav-digital.vercel.app"
-          btnText="Visit"
-        />
+       
 
         <div className="flex items-center justify-center md:items-end md:justify-start p-4 md:p-0 transition-all duration-300">
           <Button text="Explore more" type="primary" path="project" />
