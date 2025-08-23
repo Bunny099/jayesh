@@ -20,6 +20,12 @@
 # production
 /build
 
+# Next-Sitemap generated files
+/public/robots.txt
+/public/sitemap.xml
+/public/sitemap-*.xml
+
+
 # misc
 .DS_Store
 *.pem

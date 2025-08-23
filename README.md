@@ -1,31 +1,39 @@
-# 💼 Jayesh's Portfolio
+# 💼 Jayesh's Portfolio  
 
-Welcome to my personal portfolio website, built to showcase my skills, projects, and professional journey as a full-stack web developer.
+Welcome to my personal portfolio website! This site showcases my skills, projects, and professional journey as a **Full-Stack Web Developer**.  
 
-## 🚀 Tech Stack
+## 🚀 Tech Stack  
 
-- **Frontend:** Next.js, Tailwind CSS
-- **Hosting:** Vercel
+- **Frontend:** Next.js, Tailwind CSS  
+- **Hosting:** Vercel  
+- **SEO:** Sitemap & Robots.txt with `next-sitemap`  
 
-## 📌 Features
+## 📌 Features  
 
-- Clean and responsive UI
-- Dynamic project showcase section
-- Favicon and metadata optimized
-- Fully deployed at [www.jayeshkhuman.in](www.jayeshkhuman.in)
+- 🌐 Clean and responsive UI (desktop + mobile)  
+- 📂 Dynamic project showcase section  
+- 🎨 Modern UI/UX with minimal styling  
+- 🔍 SEO optimized (sitemap + robots.txt)  
+- 📱 Mobile-friendly design  
+- 🖼️ Project cards with summary and live demo links  
+- 📑 Favicon and metadata optimized  
 
-## 🧠 Highlights
+## 🧠 Highlights  
 
-- Fully responsive design for desktop and mobile
-- Modern UI/UX with minimal styling
-- Each project card contains a brief summary and a live link
+- Fully responsive across devices  
+- Smooth navigation and fast performance  
+- Easy to maintain and extend with Next.js  
+- Automated sitemap generation for better search engine visibility  
 
+## 🌍 Live Website  
 
+👉 [www.jayeshkhuman.in](https://www.jayeshkhuman.in)  
 
-## 📫 Contact
+## 📫 Contact  
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jayeshkhuman) or [Email](mailto:jayeshkhuman121@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/jayeshkhuman)  
+- [Email](mailto:jayeshkhuman121@gmail.com)  
 
----
+---  
 
-> ⚡ Built with passion and focus by **Jayesh**
+⚡ Built with passion and focus by **Jayesh Khuman**  
