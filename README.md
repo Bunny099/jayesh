@@ -12,7 +12,7 @@ Welcome to my personal portfolio website, built to showcase my skills, projects,
 - Clean and responsive UI
 - Dynamic project showcase section
 - Favicon and metadata optimized
-- Fully deployed at [jayesh-five.vercel.app](https://jayesh-five.vercel.app/)
+- Fully deployed at [www.jayeshkhuman.in](www.jayeshkhuman.in)
 
 ## 🧠 Highlights
 
@@ -24,7 +24,7 @@ Welcome to my personal portfolio website, built to showcase my skills, projects,
 
 ## 📫 Contact
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jayesh-khuman-8476bb1a9/) or [Email](mailto:jayeshkhuman121@gmail.com)
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jayeshkhuman) or [Email](mailto:jayeshkhuman121@gmail.com)
 
 ---
 
