@@ -15,8 +15,6 @@ module.exports = {
         disallow: ['/admin'], 
       },
     ],
-    additionalSitemaps: [
-      'https://jayeshkhuman.in/sitemap.xml',
-    ],
+    
   },
 };
