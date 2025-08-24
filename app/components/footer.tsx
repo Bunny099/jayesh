@@ -38,7 +38,7 @@ export default function Footer() {
               />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/jayesh-khuman-8476bb1a9/"
+              href="https://www.linkedin.com/in/jayeshkhuman"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
