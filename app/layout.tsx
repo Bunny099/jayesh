@@ -1,8 +1,9 @@
-import type { Metadata } from "next"; 
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     description:
       "Official portfolio of Jayesh Khuman – Full Stack Developer crafting high-performance, SEO-friendly web applications.",
     images: ["https://jayeshkhuman.in/portfolio.png"],
-    
+
   },
 };
 
@@ -85,7 +86,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main className="min-h-screen w-full">{children}</main>
+        <main className="min-h-screen w-full">
+          {children}
+          <Analytics />
+        </main>
         <Footer />
       </body>
     </html>
