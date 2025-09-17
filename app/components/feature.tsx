@@ -8,6 +8,14 @@ export default function Feature() {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+       <ProjectCard
+                   title="LinkFly"
+                   description="Developed LinkFly, an AI-powered LinkedIn profile optimizer and content generator with Google authentication, Gemini AI integration. Built using Next.js, Tailwind, shadcn/ui, Drizzle, and PostgreSQL."
+                   image="linkfly.png"
+                   btnLink="https://linkfly-three.vercel.app"
+                   btnText="Visit"
+                 />
+       
         <ProjectCard
                     title="Officers"
                     description="Built Officers, a Next.js-based platform for a student-alumni trust with public resources and a secure admin panel, powered by NextAuth, Prisma, PostgreSQL, Tailwind, and Framer Motion."
@@ -15,15 +23,7 @@ export default function Feature() {
                     btnLink="https://officers-three.vercel.app"
                     btnText="Visit"
                   />
-        <ProjectCard
-          title="TimeWise"
-          description="Track project work hours with start/end times, manage entries, and generate reports. Built with Next.js, Prisma, and PostgreSQL."
-          image="timewise.png"
-          btnLink="https://timewise-beta.vercel.app"
-          btnText="Visit"
-        />
-
-       
+        
 
         <div className="flex items-center justify-center md:items-end md:justify-start p-4 md:p-0 transition-all duration-300">
           <Button text="Explore more" type="primary" path="project" />

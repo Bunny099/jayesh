@@ -6,9 +6,19 @@ export default function Projects() {
         <h1 className="text-white text-4xl md:text-5xl font-bold">Work</h1>
       </div>
 
-  
+
       <div className="bg-black min-h-screen w-full px-4 sm:px-8 md:px-20 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <ProjectCard
+            title="LinkFly"
+            description="Developed LinkFly, an AI-powered LinkedIn profile optimizer and content generator with Google authentication, Gemini AI integration. Built using Next.js, Tailwind, shadcn/ui, Drizzle, and PostgreSQL."
+            image="linkfly.png"
+            btnLink="https://linkfly-three.vercel.app"
+            btnText="Visit"
+          />
+
+
           <ProjectCard
             title="Officers"
             description="Built Officers, a Next.js-based platform for a student-alumni trust with public resources and a secure admin panel, powered by NextAuth, Prisma, PostgreSQL, Tailwind, and Framer Motion."
