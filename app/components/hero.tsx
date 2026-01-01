@@ -10,7 +10,7 @@ export default function Hero() {
        <div className="w-full min-h-screen flex items-center justify-start themebg px-4 md:px-20 py-12">
         <div className="max-w-4xl w-full">
           <TypeWriter />
-          <p className="text-base md:text-xl text-white text-pretty transition-all duration-300 leading-relaxed mt-4">
+          <p className="text-base md:text-xl text-white  text-pretty transition-all duration-300 leading-relaxed mt-4 ">
             I design, build, and ship full-stack web apps that are fast,
             scalable, and beautifully crafted. <br />
             Blending logic with creativity, I turn complex problems into

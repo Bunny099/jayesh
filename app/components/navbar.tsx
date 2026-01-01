@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Button from "./button";
 import JayeshLogo from "./logo";
+import { ModeToggle } from "@/components/theme/mode-toggle";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -45,6 +46,8 @@ export default function Navbar() {
         <li>
           <Button text="Contact" type="primary" path="contact" />
         </li>
+
+        <ModeToggle/>
       </ul>
 
       <div className="md:hidden">
