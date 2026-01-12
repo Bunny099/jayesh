@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Button from "./button";
 import JayeshLogo from "./logo";
+import AnnouncementBar from "./announce";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -23,7 +24,8 @@ export default function Navbar() {
     { label: "TESTIMONIALS", href: "testimonial" },
     { label: "TECH", href: "techstack" },
   ];
-  return (
+  return ( <>
+  <AnnouncementBar/>
     <nav
       className={`flex items-center justify-between py-6 px-6 md:px-22 sticky top-0 z-50  transition-all duration-300 text-white 
       ${scrolled ? "bg-black/35 backdrop-blur-md shadow-md" : "themebg"}
@@ -77,5 +79,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </>
   );
 }

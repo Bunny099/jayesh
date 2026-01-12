@@ -27,7 +27,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 ## 🌍 Live Website  
 
-👉 [www.jayeshkhuman.in](https://www.jayeshkhuman.in)  
+👉 [https://v1-jayesh.vercel.app/](https://v1-jayesh.vercel.app/)  
 
 ## 📫 Contact  
 
