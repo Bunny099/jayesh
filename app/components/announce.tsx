@@ -5,7 +5,7 @@ export default function AnnouncementBar() {
     const [visible, setVisible] = useState<boolean>(true);
   
     if (!visible) return null;
-    return <div className="w-full bg-black/50 backdrop-blur-sm text-neutral-200 text-xm px-4 py-2 flex items-center justify-center relative z-50">
+    return <div className="w-full bg-black backdrop-blur-sm text-neutral-200 text-xm px-4 py-2 flex items-center justify-center relative z-50">
         <p className="text-center">This is my previous portfolio.{" "}
             <a href="https://jayeshkhuman.in" target="_blank" rel="noopener noreferrer" className="underline font-medium hover:text-white transition-colors">View my current portfolio</a>
         </p>
