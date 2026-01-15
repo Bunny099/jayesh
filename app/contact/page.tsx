@@ -29,16 +29,7 @@ export default function Contact() {
               >
                 jayeshkhuman121@gmail.com
               </a>
-            </p>
-            <p>
-              <span className="font-semibold">Phone:</span>{" "}
-              <a
-                href="tel:+919265646507"
-                className="text-blue-400 hover:underline"
-              >
-                +91-9265646507
-              </a>
-            </p>
+            </p> 
           </div>
         </div>
       </div>
